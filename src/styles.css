@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* banner, navbar and footer global css here */
+.nav-bar{
+    margin-top: -107px;
+}
+
+.footer-div{
+    margin-top: -15%;
+}
+@media screen and (min-width:768.5px) {
+    .nav-small {
+        display: none;
+    }   
+}
+@media screen and (max-width:768px) {
+    .banner {
+        display: none;
+    } 
+    .nav-bar {
+        display: none;
+    }
+}
